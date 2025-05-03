@@ -12,7 +12,7 @@ def delete_html_tags(html_file, result_file='cleaned.txt'):
     cleaned_lines = []
     for line in clean_text.splitlines():
         stripped = line.strip()
-        if stripped:  # Якщо рядок не порожній після видалення пробілів
+        if stripped:
             cleaned_lines.append(stripped)
 
     with codecs.open(result_file, 'w', 'utf-8') as output:
