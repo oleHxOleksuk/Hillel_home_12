@@ -1,6 +1,3 @@
-from tkinter.font import names
-
-
 class Item:
 
     def __init__(self, name, price, description, dimensions):
